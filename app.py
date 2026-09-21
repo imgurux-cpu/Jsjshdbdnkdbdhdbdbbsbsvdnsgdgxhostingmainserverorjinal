@@ -50,7 +50,7 @@ def keep_alive():
 
 # --- Configuration ---
 # Keep credentials in Render environment variables, never in source control.
-TOKEN ="8873320592:AAEA46mnkJ-UR2g-KJak9hqfj0lor10Glng"
+TOKEN ="8938528844:AAHi7zuH79tsZUV26x0HMNODu45p9uv7by4"
 if not TOKEN:
     raise RuntimeError(
         "Missing TELEGRAM_BOT_TOKEN environment variable. "
@@ -67,7 +67,7 @@ def required_int_env(name, fallback=None):
     except ValueError as exc:
         raise RuntimeError(f"{name} must be a numeric Telegram user ID.") from exc
 # Direct numeric Admin/Owner ID
-OWNER_ID = 6477114877
+OWNER_ID = 8857400259
 ADMIN_ID = 6477114877
 
 YOUR_USERNAME = os.environ.get("OWNER_USERNAME", "@Masrafi01")
