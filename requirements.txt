@@ -2,3 +2,4 @@ pyTelegramBotAPI
 Flask
 requests
 psutil
+google-auth
